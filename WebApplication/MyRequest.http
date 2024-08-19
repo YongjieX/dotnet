@@ -1,0 +1,21 @@
+  GET http://localhost:5253/todos
+
+###
+POST http://localhost:5253/todos
+Content-Type: application/json
+
+{
+    "id": 1,
+  "name": "My second new todo",
+  "dueDate": "2021-12-31",
+  "completed": false
+}
+ 
+###
+ GET http://localhost:5253/todos/1
+
+###
+DELETE  http://localhost:5253/todos/2
+
+###
+ GET http://localhost:5253/tasks/1
